@@ -171,4 +171,4 @@ cython_debug/
 .pypirc
 
 #Training folder 
-.training/*
+/training

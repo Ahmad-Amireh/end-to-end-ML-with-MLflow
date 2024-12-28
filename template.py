@@ -9,7 +9,7 @@ logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s')
 project_name= "mlproject"
 
 list_of_files = [
-    ".github/workflow/.gitkeep",
+    ".github/workflow/.gitkeep", # for CI/CD using GHA  (whenever I commit the code this folder should be commoitted so you need some folder inside it and after that you can remove it)
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",
@@ -20,7 +20,7 @@ list_of_files = [
     f"src/{project_name}/entity/__init__.py",
     f"src/{project_name}/entity/config_entity.py",
     f"src/{project_name}/constants/__init__.py",
-    "config/config.yaml", 
+    "config/config.yaml", #all of my configuration of the project
     "dvc.yaml",
     "params.yaml",
     "schema.yaml",
