@@ -1,0 +1,7 @@
+artifacts_root: artifacts #every thing will be saved under it 
+
+data_ingestion: 
+  root_dir: artifacts/data_ingestion  # what the directory the data will be saved 
+  source_url: https://github.com/Ahmad-Amireh/end-to-end-ML-with-MLflow/raw/refs/heads/main/winequality-data.zip  # where is the data source 
+  local_data_file: artifacts/data_ingestion/data.zip #where do you want to save it 
+  unzip_dir: artifacts/data_ingestion

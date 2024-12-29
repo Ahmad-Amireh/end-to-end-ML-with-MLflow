@@ -1,0 +1,1 @@
+# it's only a written type of function
