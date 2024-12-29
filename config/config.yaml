@@ -5,3 +5,11 @@ data_ingestion:
   source_url: https://github.com/Ahmad-Amireh/end-to-end-ML-with-MLflow/raw/refs/heads/main/winequality-data.zip  # where is the data source 
   local_data_file: artifacts/data_ingestion/data.zip #where do you want to save it 
   unzip_dir: artifacts/data_ingestion
+
+data_validation: 
+  root_dir: artifacts/data_validation 
+  unzip_data_dir: artifacts/data_ingestion/winequality-red.csv 
+  STATUS_FILE: artifacts/data_validation/status.txt
+
+
+  
