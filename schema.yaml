@@ -1,2 +1,3 @@
 # mention all the columns with respective data type
 #not needed in ingestion (in validation)
+key: val
