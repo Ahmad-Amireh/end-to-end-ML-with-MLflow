@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/DELL/projects/end-to-end-ML-with-MLflow/mlruns/0/eff175f90d1747d284c1d1fde4e46025/artifacts
+end_time: 1735610625117
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eff175f90d1747d284c1d1fde4e46025
+run_name: suave-slug-16
+run_uuid: eff175f90d1747d284c1d1fde4e46025
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735610622521
+status: 3
+tags: []
+user_id: DELL

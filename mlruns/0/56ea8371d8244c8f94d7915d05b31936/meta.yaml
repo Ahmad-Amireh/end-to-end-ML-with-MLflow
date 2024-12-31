@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/DELL/projects/end-to-end-ML-with-MLflow/mlruns/0/56ea8371d8244c8f94d7915d05b31936/artifacts
+end_time: 1735609857278
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 56ea8371d8244c8f94d7915d05b31936
+run_name: invincible-lynx-389
+run_uuid: 56ea8371d8244c8f94d7915d05b31936
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735609857223
+status: 4
+tags: []
+user_id: DELL

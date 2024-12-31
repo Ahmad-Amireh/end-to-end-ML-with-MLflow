@@ -33,7 +33,7 @@ def create_directories(path_to_directories: list, verbose=True):
 def save_json(path: Path, data: dict):
     with open (path, "w") as f:
         json.dump(data, f, indent=4)
-    logger(f"json file saved at: {path}")
+    logger.info(f"json file saved at: {path}")
 
 
 @ensure_annotations 
@@ -46,14 +46,14 @@ def load_json(path: Path) -> ConfigBox:
 @ensure_annotations 
 def save_bin(data: Any, path:Path):
     joblib.dump(value=data, filename=path)
-    logger(f"binary file saved at: {path}")
+    logger.info(f"binary file saved at: {path}")
     
 
 
 @ensure_annotations 
 def load_bin(path:Path)-> Any:
     data=joblib.load(path)
-    logger(f"binary file loadded sucessfult from: {path}")
+    logger.info(f"binary file loadded sucessfult from: {path}")
     return data
 
 @ensure_annotations 

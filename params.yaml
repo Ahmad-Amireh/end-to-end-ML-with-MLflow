@@ -1,7 +1,7 @@
 # all the params we can change it from here instead of command line 
 #when we train our model 
 ElasticNet: 
-  alpha: 0.5
-  l1_ratio: 0.7
+  alpha: 0.9
+  l1_ratio: 0.8
 
 
