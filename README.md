@@ -61,12 +61,3 @@ open up your local host and port
 
 ### dagshub 
 [dagshub](https://dagshub.com)
-
-MLFOLOW_TRACKING_URI= https://dagshub.com/Ahmad97/my-first-repo.mlflow
-DAGS_HUB_TOKEN = 4cefc6718b7a65548a8d20d5c9012fcff949fd23
-
-``` bash
-export MLFOLOW_TRACKING_URI= https://dagshub.com/Ahmad97/my-first-repo.mlflow #Linux
-set MLFOLOW_TRACKING_URI= https://dagshub.com/Ahmad97/my-first-repo.mlflow # CMD
-export DAGS_HUB_TOKEN=4cefc6718b7a65548a8d20d5c9012fcff949fd23 #Linux
-'''
