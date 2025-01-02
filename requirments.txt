@@ -16,4 +16,7 @@ joblib
 types-pyYAML
 Flask
 Flask-Cors
+pydantic
+fastapi 
+uvicorn
 -e .
